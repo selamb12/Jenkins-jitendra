@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:request-connection host="worldtimeapi.org" />
 	</http:request-config>
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="56d577d7-3e1d-4ce7-a15f-3f6b220c8164" basePath="/timezone" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8082" />
 	</http:listener-config>
 	<flow name="jenkins-jitendra1-world-apiFlow" doc:id="f05178b1-4d8c-417b-8810-61123aa58611" >
 		<http:listener doc:name="Listener" doc:id="55feac1a-f79a-4cd3-8e33-3bfb78290648" path="/{region}/{city}" config-ref="HTTP_Listener_config"/>
