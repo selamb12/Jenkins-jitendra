@@ -29,12 +29,12 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.3.5</version>
+				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
 				<username>SelamMule1</username>
-				<password>Naomiye@2021</password>
+				<p>Naomiye@2021</password>
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
