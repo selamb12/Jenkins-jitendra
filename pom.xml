@@ -24,21 +24,21 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-clean-plugin</artifactId>
-				
+				<version>3.0.0</version>
 			</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.3.5</version>
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
 				<username>SelamMule1</username>
+				<password>Naomiye@2021</password>
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>WorldTimeZone-service</applicationName>
-				<password>Naomiye@2021</password>
 				<muleVersion>4.3.0</muleVersion>
 				</cloudHubDeployment>
 				</configuration>
