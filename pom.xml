@@ -33,6 +33,8 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
+				<uri>https://anypoint.mulesoft.com</uri>
+				<objectStoreV2>true</objectStoreV2>
 				<username>SelamMule1</username>
 				<password>Naomiye@2021</password>
 				<environment>Sandbox</environment>
