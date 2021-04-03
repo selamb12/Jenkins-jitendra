@@ -40,7 +40,7 @@
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
-				<applicationName>WorldTimeZone-service</applicationName>
+				<applicationName>jenkins-jitendra1-world-api</applicationName>
 				<muleVersion>4.3.0</muleVersion>
 				</cloudHubDeployment>
 				</configuration>
